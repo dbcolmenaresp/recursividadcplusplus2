@@ -17,3 +17,15 @@ El caso base o condición de parada que es el que se determina a través de un c
 La secuencia de Fibonacci, donde cada término es la suma de los dos anteriores, puede implementarse recursivamente. La fórmula matemática que representa este cálculo es la siguiente:
 
 El número de Fibonacci de n es igual al número de Fibonacci de n – 1 más el número de Fibonacci de n – 2
+
+F(n) = F(n – 1) + F(n - 2)
+
+Con los siguiente casos base:
+
+El número de Fibonacci de cero es uno
+F(0) = 1
+
+El número de Fibonacci de uno es uno
+F(1) = 1
+
+Es útil en situaciones donde se necesita calcular el valor de Fibonacci en contextos de generación de datos o de modelos.
