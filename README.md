@@ -12,7 +12,7 @@ El caso recursivo que es el que se va a llamar a si mismo con un valor diferente
 
 El caso base o condición de parada que es el que se determina a través de un cálculo básico sin necesidad de llamar recursivamente a la funcion. Esta es la condición que garantiza que la función no se siga llamando recursivamente de manera indefinida.
 
-##Serie de Fibonacci
+## Serie de Fibonacci
 
 La secuencia de Fibonacci, donde cada término es la suma de los dos anteriores, puede implementarse recursivamente. La fórmula matemática que representa este cálculo es la siguiente:
 
