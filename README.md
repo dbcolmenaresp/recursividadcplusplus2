@@ -14,3 +14,6 @@ El caso base o condición de parada que es el que se determina a través de un c
 
 ##Serie de Fibonacci
 
+La secuencia de Fibonacci, donde cada término es la suma de los dos anteriores, puede implementarse recursivamente. La fórmula matemática que representa este cálculo es la siguiente:
+
+El número de Fibonacci de n es igual al número de Fibonacci de n – 1 más el número de Fibonacci de n – 2
