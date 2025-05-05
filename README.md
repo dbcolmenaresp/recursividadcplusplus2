@@ -89,21 +89,28 @@ Para la implementación del algoritmo del cálculo del término de la sucesión 
 
 Primeramente se define la función que calcula el término de la suceción de Fibonacci
 
+~~~c++
 // Función que genera los términos de la sucesión de Fibonacci de manera recursiva
 int fibonacci(int n){
+~~~
 
 Se debe agregar a la función la condición de parada.
 
+~~~c++
 if(n == 0 || n == 1){
     return n; // Condición base
 }
+~~~
 
 Por último se agrega la condición recursiva para el cálculo en sumas sucesivas
 
+~~~c++
 return fibonacci(n - 1) + fibonacci(n - 2);
+~~~
 
 El programa completo para calcular el término de la sucesión de Fibonacci se muestra a continuación:
 
+~~~c++
 // Programa que implementa la generación del término de Fibonacci de manera recursiva
 
 #include <iostream>
@@ -149,4 +156,4 @@ int main(){
 	
 	return 0;
 }
-
+~~~
