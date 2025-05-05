@@ -56,7 +56,7 @@ De esta manera se identifica la condición recursiva para determinar el término
 
 Luego se procede a identificar el caso base de la función, en esta oportunidad los casos en los cuales n = 0 y n = 1, el valor del término actual de la sucesión de Fibonacci es F(n) = 1, el cual se determina sin necesidad de hacer un nuevo llamado recursivo a la función, solo se retorna el valor de 1.
 
-Con los siguiente casos base:
+Los casos base identificados se pueden expresar de la siguiente manera:
 
 El número de Fibonacci de cero es uno
 F(0) = 1
@@ -73,6 +73,7 @@ Observamos que para calcular un término de la sucesión de Fibonacci, se proced
 
 El algorítmo que muestra el término de Fibonacci de manera recursiva es el siguiente:
 
+```
 n = 6 // Valor al que se le quiere calcular el término de Fibonacci
 
 funcion Fibonacci(entero n)
@@ -80,7 +81,7 @@ funcion Fibonacci(entero n)
         retornar n // Condición de parada, caso base
     Si no
         retornar Fibonacci(n – 1) + Fibonacci(n – 2) // Condición recursiva
-
+```
 
 Implementación del cálculo del término de Fibonacci en lenguaje C++
 
